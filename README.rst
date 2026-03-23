@@ -12,7 +12,7 @@ add hooks like the following to your ``.pre-commit-config.yaml``:
 .. code-block:: yaml
 
    -   repo: https://github.com/adamtheturtle/literalizer-cli-pre-commit
-       rev: v2024.1.1
+       rev: v2026.3.23.4
        hooks:
        -   id: literalize
            args: ["--language", "python"]
