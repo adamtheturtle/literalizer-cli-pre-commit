@@ -1,0 +1,10 @@
+---
+- id: literalize
+  name: literalize
+  description: Convert data structures to native language literal syntax
+  entry: literalize
+  language: python
+  types_or: [json]
+  args: []
+  require_serial: true
+  additional_dependencies: []
