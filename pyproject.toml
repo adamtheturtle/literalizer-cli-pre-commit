@@ -11,3 +11,28 @@ classifiers = [
 dependencies = [
     "literalizer-cli==2024.1.1",
 ]
+optional-dependencies.dev = [
+    "actionlint-py==1.7.11.24",
+    "doc8==2.0.0",
+    "prek==0.3.6",
+    "pyproject-fmt==2.18.1",
+    # We add shellcheck-py not only for shell scripts and shell code blocks,
+    # but also because having it installed means that ``actionlint-py`` will
+    # use it to lint shell commands in GitHub workflow files.
+    "shellcheck-py==0.11.0.1",
+    "sphinx-lint==1.0.2",
+    "yamlfix==1.19.1",
+    "zizmor==1.23.1",
+]
+
+[tool.pyproject-fmt]
+indent = 4
+keep_full_version = true
+max_supported_python = "3.14"
+
+[tool.yamlfix]
+section_whitelines = 1
+whitelines = 1
+
+[tool.doc8]
+max_line_length = 2000
