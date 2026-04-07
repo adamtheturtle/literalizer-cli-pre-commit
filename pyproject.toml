@@ -9,7 +9,7 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
 ]
 dependencies = [
-    "literalizer-cli==2026.3.29",
+    "literalizer-cli==2026.4.6",
 ]
 optional-dependencies.dev = [
     "actionlint-py==1.7.12.24",
